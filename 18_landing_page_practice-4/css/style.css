@@ -1,0 +1,78 @@
+@import url(normalize.css);
+
+@font-face {
+  font-family: NeueMachina;
+  src: url(../fonts/NeueMachina-Regular.otf);
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+  font-size: 30px;
+}
+
+p,
+a {
+  font-family: "NeueMachina", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+header h1,
+footer p {
+  margin: 0;
+}
+
+.header {
+  height: 200px;
+  background-color: blue;
+  color: white;
+  line-height: 200px;
+  font-weight: bold;
+}
+
+.header-name-surname {
+  text-align: center;
+}
+
+.image-container {
+  height: 1000px;
+  background-image: url(../img/img.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.navigation {
+  height: 100px;
+  background-color: blue;
+  color: white;
+  line-height: 100px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+}
+
+.main-text-container {
+  margin: 80px;
+}
+
+.main-text-header {
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.footer {
+  height: 200px;
+  background-color: blue;
+  color: white;
+  line-height: 200px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: right;
+  padding-right: 80px;
+  background-image: url(../img/logo.png);
+  background-repeat: no-repeat;
+  background-position: 100px 80px;
+}
