@@ -52,6 +52,7 @@ p {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 20px;
+  position: relative;
 }
 
 .footer-text-left {
