@@ -1,0 +1,167 @@
+@import url(reset.css);
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 140px;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  color: #e50043;
+  font-size: 50px;
+  height: 140px;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  opacity: 0.9;
+}
+
+.header p {
+  margin-right: auto;
+  margin-left: 50px;
+}
+
+.header-links {
+  display: flex;
+  margin-right: 50px;
+}
+
+.header-links li:not(:last-child) {
+  padding-right: 25px;
+}
+
+.picture-main-flex {
+  display: flex;
+  background-image: url(../img/evian_origins_logo.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 950px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 150px;
+}
+
+.picture-main-flex h1 {
+  font-size: 100px;
+  color: #e50043;
+}
+
+.flex-about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about {
+  border: 3px solid #f8bfc7;
+  box-sizing: border-box;
+  border-radius: 20px;
+  padding: 24px;
+  width: 55%;
+  font-size: 25px;
+  line-height: 29px;
+  letter-spacing: 0.05em;
+  margin-bottom: 150px;
+}
+
+.bottles-img {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  height: 863px;
+}
+
+.bottle-1 {
+  background-image: url(../img/wang.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 280px;
+  margin-right: 100px;
+}
+
+.bottle-2 {
+  background-image: url(../img/blue.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 280px;
+  margin-right: 100px;
+}
+
+.bottle-3 {
+  background-image: url(../img/chiara.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 280px;
+}
+
+.flex-description {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 150px;
+  font-size: 25px;
+  line-height: 29px;
+  text-align: center;
+}
+
+.description-1 {
+  margin-right: 100px;
+  width: 280px;
+}
+
+.description-2 {
+  margin-right: 100px;
+  width: 280px;
+}
+
+.description-3 {
+  width: 280px;
+}
+
+.flex-ingredients {
+  display: flex;
+  justify-content: center;
+}
+
+.ingredients {
+  display: flex;
+  border: 3px solid #f8bfc7;
+  border-radius: 20px;
+  padding: 30px;
+  width: 55%;
+  font-size: 25px;
+  letter-spacing: 0.05em;
+  margin-bottom: 150px;
+}
+
+.ingredients-img {
+  background-image: url(../img/glass.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 101px;
+  margin-right: 80px;
+  margin-left: 50px;
+}
+
+.footer {
+  display: flex;
+  color: white;
+  font-size: 50px;
+  height: 140px;
+  background-color: #f8bfc7;
+  align-items: center;
+  padding-left: 50px;
+}
+
+.footer a {
+  margin-left: auto;
+  padding-right: 50px;
+  text-decoration: none;
+  color: inherit;
+}
