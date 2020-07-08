@@ -1,9 +1,12 @@
 @import url(reset.css);
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   padding-top: 140px;
-  box-sizing: border-box;
 }
 
 .header {
@@ -57,7 +60,6 @@ body {
 
 .about {
   border: 3px solid #f8bfc7;
-  box-sizing: border-box;
   border-radius: 20px;
   padding: 24px;
   width: 55%;
